@@ -1,0 +1,11 @@
+Os arquivos a seguir contém drivers para os BDs especificados:
+
+mysql5.jar ----> MySQL
+ojdbc6.jar ----> Oracle
+sqljdbc42.jar -> MS-SQLserver
+
+Em PROJETOS CONVENCIONAIS (java projects), devem ser adicionados ao
+projeto, clicando com o botão direito do mouse sobre o nome do projeto,
+para então escolher PROPERTIES, JAVA BUILD PATH, LIBRARIES,
+ADD EXTERNAL JARS, localizar e indicar o arquivo do driver a ser
+adicionado.
